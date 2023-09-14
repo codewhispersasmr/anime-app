@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Anime App | Code Whispers ASMR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="./img/logo.png" class="logo"/>
+            <div>Anime App</div>
+            <div class="search-container">
+                <div class="search">
+                  <input type="text" class="search-term" placeholder="What are you looking for?">
+                  <button type="submit" class="search-button">
+                    <i class="fa fa-search"></i>
+                 </button>
+               </div>
+            </div>
+        </header>
+        <main class="home">
+            <div class="banner"></div>
+            <div class="container">
+                <h2 class="title">Trending</h2>
+                <div class="trending home-list"></div>
+            </div>
+        </main>
+        <main class="search-result hide">
+            <div class="list"></div>
+            <nav class="page"></nav>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
